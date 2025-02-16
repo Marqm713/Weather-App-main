@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Current weather</h1>
+
+    <section id="weatherBox">
+    <img id="icon" src="" style="background-color: gray;">
+    <p id="temperature"></p>
+    <p id="weatherdesc"></p>
+    <p id="windSpeed"></p><br>
+
+    <select id= "cityChoice">
+        <option id="Houston" value="Houston">Houston</option>
+        <option id="dallas" value="Dallas">Dallas</option>
+        <option id="San Antonio" value="San Antonio">San Antonio</option>
+        <option id="Austin" value="Austin">Austin</option>
+    </select>
+
+    <button id="get-weather">Get Weather</button>
+    </section>
+
+    <section>
+    <h2>Precipitation Map</h2>
+    <img id="precipitation" alt="Precipitation Map"/>
+    <button id="get-Precipitation">Get Weather</button>
+    <script src="api.js"></script>
+    </section>
+</body>
+
+</html>
+

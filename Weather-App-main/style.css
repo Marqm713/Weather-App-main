@@ -1,0 +1,29 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#temperature {
+    font-size: 32px;
+}
+#weatherdesc {
+    font-size: 26px;
+}
+#windspeed {
+    font-size: 22px;
+}
+#weatherbox {
+    border-style: dashed;
+    border-color: grey;
+}
+#precipitation {
+    width: 400px;
+    height: 300px;
+    transform-origin: top left;
+    overflow: hidden;
+    ;
+}
